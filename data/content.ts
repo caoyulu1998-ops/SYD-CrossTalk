@@ -45,7 +45,7 @@ export const content: Record<Language, Content> = {
       body: 'A card-and-coin based practice product for Chinese international students in Sydney, designed to build confidence in campus, daily life, and social interactions.',
       primaryCta: 'Start',
       secondaryCta: 'How It Works',
-      statLine: 'Physical Cards · Point Coins · Product Website'
+      statLine: 'Cards · Point Coins · Guided Practice'
     },
     sections: [
       {
@@ -56,17 +56,16 @@ export const content: Record<Language, Content> = {
       {
         id: 'start',
         title: 'Start',
-        body: 'Choose a weekly communication mission, prepare your card set, and follow the step-by-step prompts on the website. Every completed interaction earns point coins and unlocks the next challenge level.',
-        cta: 'Begin your first mission'
+        body: 'Prepare the card decks, choose a play mode, and follow one round at a time. SYD CrossTalk is designed for face-to-face practice with physical cards and point coins.',
+        cta: 'Begin a round'
       },
       {
         id: 'modes',
         title: 'Modes',
-        body: 'Switch modes based on confidence and social setting, so practice always feels achievable.',
+        body: 'Choose a mode that matches your group size and practice focus.',
         bullets: [
-          'Solo Mode: self-guided warm-up before real conversations',
-          'Pair Mode: role-play with one partner for focused feedback',
-          'Group Circle: rotating prompts for dynamic speaking practice'
+          '2-Player Mode: One player completes the communication task. The other player acts as the responder and gives light feedback. Players take turns.',
+          'Group Mode (3–5 players): One player completes the task, one player responds, and the remaining players give short feedback from different perspectives such as clarity, tone, body language, and task completion.'
         ]
       },
       {
@@ -77,26 +76,32 @@ export const content: Record<Language, Content> = {
         bullets: [
           'Physical Cards: scenario, prompt, and response strategy cards',
           'Point Coins: visible progress that rewards consistency',
-          'Product Website: guided flow, mode selection, and reflection support'
+          'Guided Practice: clear flow, mode selection, and reflection support'
         ],
         image: '/images/card-system.jpg'
       },
       {
         id: 'cards',
         title: 'Cards',
-        body: 'The card set helps users quickly move from uncertainty to action by turning everyday communication moments into clear, repeatable speaking tasks.',
+        body: 'Scene Cards: define the situation and communication task.',
+        bullets: [
+          'Expression Cards: provide verbal, non-verbal, and tone resources.',
+          'Twist Cards: add misunderstanding, noise, time pressure, or cultural conditions.',
+          'Feedback Cards: provide encouragement or adjustment prompts.',
+          'Rule Cards: help users quickly understand how to play.'
+        ],
         image: '/images/packaging.jpg'
       },
       {
         id: 'coins',
         title: 'Point Coins',
-        body: 'Point coins make growth visible. Users collect coins after each session and track momentum as they build communication confidence over time.',
+        body: 'Each time a player successfully completes a communication task, they receive one point coin. Failed attempts do not remove coins. Players can use feedback and try again. The first player to collect five point coins wins.',
         image: '/images/point-coins.jpg'
       },
       {
         id: 'reflection',
         title: 'Reflection',
-        body: 'After each mission, users record what they tried, what felt challenging, and what improved. Reflection transforms practice into long-term communication progress.'
+        body: 'After each round, users record what they tried, what felt challenging, and what improved. Reflection transforms practice into long-term communication progress.'
       }
     ],
     footer: 'SYD CrossTalk · Cross-cultural communication practice product',
@@ -120,7 +125,7 @@ export const content: Record<Language, Content> = {
       body: '这是一款面向悉尼中国留学生的卡牌与积分币沟通练习产品，帮助用户在校园、日常生活和社交互动中建立表达信心。',
       primaryCta: '开始',
       secondaryCta: '使用方式',
-      statLine: '实体卡牌 · 积分币 · 产品网站'
+      statLine: '实体卡牌 · 积分币 · 引导练习'
     },
     sections: [
       {
@@ -131,39 +136,48 @@ export const content: Record<Language, Content> = {
       {
         id: 'start',
         title: '开始',
-        body: '选择每周沟通任务，准备卡组，打开网站跟随步骤提示进行练习。每次完成互动都会获得积分币，并逐步解锁更高阶段情境。',
-        cta: '开启第一次任务'
+        body: '准备卡牌，选择游戏模式，然后按照每轮流程开始练习。SYD CrossTalk 适合面对面的卡牌互动，并通过积分币记录沟通任务的完成情况。',
+        cta: '开始一轮'
       },
       {
         id: 'modes',
         title: '模式',
-        body: '根据当前状态选择练习方式，让表达训练循序渐进。',
-        bullets: ['单人模式：先完成低压力热身', '双人模式：通过角色演练获得反馈', '多人圈练：在轮换挑战中训练临场表达']
+        body: '根据参与人数选择模式，保持练习节奏清晰且可执行。',
+        bullets: [
+          '双人模式：一名玩家完成沟通任务，另一名玩家扮演回应者并给出轻量反馈，双方轮流练习。',
+          '小组模式（3–5 人）：一名玩家完成任务，一名玩家回应，其余玩家从清晰度、语气、身体语言和任务完成度等角度给出简短反馈。'
+        ]
       },
       {
         id: 'how-it-works',
         title: '使用方式',
         subtitle: '一个完整联动的练习系统',
         body: 'SYD CrossTalk 通过三个互相支持的触点，帮助用户持续练习并建立沟通信心。',
-        bullets: ['实体卡牌：情境卡、提示卡与回应策略卡', '积分币：用可见进度鼓励持续练习', '产品网站：提供流程引导、模式切换与复盘支持'],
+        bullets: ['实体卡牌：情境卡、提示卡与回应策略卡', '积分币：用可见进度鼓励持续练习', '引导练习：提供流程引导、模式切换与复盘支持'],
         image: '/images/card-system.jpg'
       },
       {
         id: 'cards',
         title: '卡牌系统',
-        body: '卡牌把真实交流场景拆解为可执行任务，帮助用户从“紧张不知道怎么说”快速进入“知道下一步怎么回应”。',
+        body: '场景卡：定义本轮情境和沟通任务。',
+        bullets: [
+          '表达卡：提供语言、非语言和语气资源。',
+          '变化卡：加入误解、噪音、时间压力或文化条件。',
+          '反馈卡：提供鼓励或调整提示。',
+          '规则卡：帮助用户快速理解玩法。'
+        ],
         image: '/images/packaging.jpg'
       },
       {
         id: 'coins',
         title: '积分币',
-        body: '积分币记录每次练习成果，让成长路径更清晰，帮助用户持续积累表达稳定性与沟通信心。',
+        body: '玩家每成功完成一次沟通任务，即可获得 1 枚积分币。未成功不会扣除已有积分币，玩家可以根据反馈再次尝试。率先获得 5 枚积分币的玩家获胜。',
         image: '/images/point-coins.jpg'
       },
       {
         id: 'reflection',
         title: '复盘',
-        body: '每次任务后记录“我做了什么、哪里卡住、下一次如何更好”，把一次练习转化为长期沟通能力成长。'
+        body: '每轮结束后记录“我做了什么、哪里卡住、下一次如何更好”，把一次练习转化为长期沟通能力成长。'
       }
     ],
     footer: 'SYD CrossTalk · 跨文化沟通练习产品',
