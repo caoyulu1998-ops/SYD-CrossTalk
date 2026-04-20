@@ -7,6 +7,9 @@ type SectionCardProps = {
 };
 
 export function SectionCard({ section, featured = false }: SectionCardProps) {
+  const imageVariant =
+    section.id === 'cards' ? 'cards' : section.id === 'coins' ? 'coins' : section.id === 'how-it-works' ? 'flow' : 'panel';
+
   return (
     <section
       id={section.id}
@@ -36,7 +39,20 @@ export function SectionCard({ section, featured = false }: SectionCardProps) {
           </button>
         ) : null}
 
-        {section.image ? <SafeImage src={section.image} alt={section.title} /> : null}
+        {section.id === 'coins' ? (
+          <div className="rounded-2xl border border-white/15 bg-white/[0.03] p-4 md:p-5">
+            <div className="flex gap-2.5 md:gap-3">
+              {Array.from({ length: 5 }).map((_, index) => (
+                <span
+                  key={index}
+                  className="h-8 w-8 rounded-full border border-amber-200/70 bg-gradient-to-br from-amber-200/75 to-amber-500/60 shadow-[0_0_18px_rgba(245,158,11,0.35)] md:h-10 md:w-10"
+                />
+              ))}
+            </div>
+          </div>
+        ) : null}
+
+        {section.image ? <SafeImage src={section.image} alt={section.title} variant={imageVariant} /> : null}
       </div>
     </section>
   );
