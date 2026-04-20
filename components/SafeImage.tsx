@@ -55,14 +55,14 @@ export function SafeImage({ src, alt, variant = 'panel' }: SafeImageProps) {
 
   if (error) {
     return (
-      <div className="h-56 w-full rounded-2xl border border-syd-border shadow-glass md:h-72">
+      <div className="h-56 w-full rounded-2xl shadow-sm ring-1 ring-slate-200 md:h-72">
         <FallbackVisual variant={variant} />
       </div>
     );
   }
 
   return (
-    <div className="relative h-56 w-full overflow-hidden rounded-2xl border border-syd-border shadow-glass md:h-72">
+    <div className="relative h-56 w-full overflow-hidden rounded-2xl shadow-sm ring-1 ring-slate-200 md:h-72">
       <Image
         src={src}
         alt={alt}

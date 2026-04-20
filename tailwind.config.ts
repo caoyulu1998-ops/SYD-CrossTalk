@@ -9,19 +9,20 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        'syd-bg': '#090A0F',
-        'syd-surface': '#11131B',
-        'syd-border': '#2B3140',
-        'syd-text': '#E9EDF5',
-        'syd-muted': '#A6ADBB',
-        'syd-accent': '#75C3FF',
-        'syd-accent-2': '#A88BFF'
+        'syd-bg': '#F6F8FC',
+        'syd-surface': '#FFFFFF',
+        'syd-border': '#D6DEEB',
+        'syd-text': '#0F172A',
+        'syd-muted': '#64748B',
+        'syd-accent': '#0EA5E9',
+        'syd-accent-2': '#8B5CF6'
       },
       boxShadow: {
-        glass: '0 20px 45px rgba(4, 10, 20, 0.4)'
+        glass: '0 12px 28px rgba(15, 23, 42, 0.08)'
       },
       backgroundImage: {
-        'mesh-gradient': 'radial-gradient(circle at 20% 20%, rgba(117,195,255,0.18), transparent 48%), radial-gradient(circle at 80% 0%, rgba(168,139,255,0.22), transparent 42%), linear-gradient(160deg, #090A0F 10%, #11131B 95%)'
+        'mesh-gradient':
+          'radial-gradient(circle at 20% 20%, rgba(56,189,248,0.18), transparent 46%), radial-gradient(circle at 80% 0%, rgba(139,92,246,0.18), transparent 42%), linear-gradient(160deg, #f8fbff 10%, #ffffff 95%)'
       }
     }
   },
