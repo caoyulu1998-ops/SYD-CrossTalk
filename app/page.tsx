@@ -56,7 +56,7 @@ export default function HomePage() {
 
       <footer className="border-t border-syd-border/60 px-4 py-8 text-center md:px-6 md:py-10">
         <p className="text-sm text-syd-muted">{copy.footer}</p>
-        <p className="mt-2 text-xs text-syd-muted/80">{copy.exhibitionNote}</p>
+        <p className="mt-2 text-xs text-syd-muted/80">{copy.designerLine}</p>
       </footer>
     </main>
   );
