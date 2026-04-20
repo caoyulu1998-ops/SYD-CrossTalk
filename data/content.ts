@@ -23,7 +23,7 @@ export type Content = {
   };
   sections: Section[];
   footer: string;
-  exhibitionNote: string;
+  designerLine: string;
 };
 
 export const content: Record<Language, Content> = {
@@ -104,8 +104,8 @@ export const content: Record<Language, Content> = {
         body: 'After each round, users record what they tried, what felt challenging, and what improved. Reflection transforms practice into long-term communication progress.'
       }
     ],
-    footer: 'SYD CrossTalk · Cross-cultural communication practice product',
-    exhibitionNote: 'Course and exhibition context available upon request.'
+    footer: 'SYD CrossTalk | Cross-cultural communication practice product',
+    designerLine: 'Designed by Yulu Cao'
   },
   zh: {
     brandLine: '服务悉尼中国留学生的跨文化沟通练习产品',
@@ -180,7 +180,7 @@ export const content: Record<Language, Content> = {
         body: '每轮结束后记录“我做了什么、哪里卡住、下一次如何更好”，把一次练习转化为长期沟通能力成长。'
       }
     ],
-    footer: 'SYD CrossTalk · 跨文化沟通练习产品',
-    exhibitionNote: '课程与展陈信息可在页脚查看。'
+    footer: 'SYD CrossTalk｜跨文化沟通练习产品',
+    designerLine: 'Designed by Yulu Cao'
   }
 };
