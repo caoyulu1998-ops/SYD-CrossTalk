@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] });
 export const metadata: Metadata = {
   title: 'SYD CrossTalk',
   description:
-    'Product website prototype for SYD CrossTalk — a cross-cultural communication practice product for Chinese international students in Sydney.'
+    'SYD CrossTalk is a cross-cultural communication practice product for Chinese international students in Sydney.'
 };
 
 export default function RootLayout({
