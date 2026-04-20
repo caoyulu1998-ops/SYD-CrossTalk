@@ -42,7 +42,7 @@ export const content: Record<Language, Content> = {
     hero: {
       title: 'SYD CrossTalk',
       headline: 'Practice cross-cultural communication through play.',
-      body: 'A card-and-coin based practice product for Chinese international students in Sydney, designed to build confidence in campus, daily life, and social interactions.',
+      body: 'A card-and-coin-based practice product for Chinese international students in Sydney, designed to build confidence in campus, daily life, and social interactions.',
       primaryCta: 'Start',
       secondaryCta: 'How It Works',
       statLine: 'Cards · Point Coins · Guided Practice'
