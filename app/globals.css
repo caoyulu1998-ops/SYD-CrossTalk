@@ -15,14 +15,15 @@ body {
   margin: 0;
   padding: 0;
   min-height: 100%;
-  background: #090a0f;
+  background: #080a12;
   color: #e9edf5;
 }
 
 body {
-  background-image: radial-gradient(circle at 15% -10%, rgba(117, 195, 255, 0.2), transparent 35%),
-    radial-gradient(circle at 90% 10%, rgba(168, 139, 255, 0.2), transparent 30%),
-    linear-gradient(160deg, #090a0f 10%, #11131b 95%);
+  background-image: radial-gradient(circle at 10% -5%, rgba(117, 195, 255, 0.18), transparent 40%),
+    radial-gradient(circle at 80% -20%, rgba(168, 139, 255, 0.14), transparent 38%),
+    radial-gradient(circle at 50% 120%, rgba(117, 195, 255, 0.08), transparent 35%),
+    linear-gradient(160deg, #070910 8%, #0d111d 52%, #111522 100%);
   background-attachment: fixed;
 }
 
